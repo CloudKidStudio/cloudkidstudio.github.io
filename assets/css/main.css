@@ -54,7 +54,7 @@ article ul {
 
 header {
 	padding: 0 15px 16px 20px;
-	background-color:#396EA0;
+	background-color:#192240;
 	margin-bottom:20px;
 	display:block;
 }
@@ -62,7 +62,7 @@ header h1  {
 	font-size: 100%;
 	margin:0 auto;
 	max-width:900px;
-	padding:10px 0 0 0;
+	padding:10px 0;
 	
 }
 header h1 .title {
@@ -78,7 +78,7 @@ header h1 a.git {
 	display:block;
 	height:40px;
 	width:40px;
-	margin-top:5px;
+	margin-top:20px;
 	color:#2D4568;
 }
 header h1 a.git:hover
@@ -114,7 +114,7 @@ nav .description {
 }
 
 nav ul li.library {
-	margin-bottom:10px;
+	margin-bottom:20px;
 	font-weight:bold;
 	width:25%;
 	float:left;
@@ -162,15 +162,15 @@ nav .src {
 
 nav a:active,
 nav a:hover {
-	background:#356de4;
-	color:#fff;
-	text-decoration:none;
-	border-color:#2D4568;
+	background: #1DCBE0;
+	color: #fff;
+	text-decoration: none;
+	border-color: #2F9BAA;
 }
 
 nav a:active {
 	border-bottom:0;
-	border-top:2px solid #2D4568;
+	border-top:2px solid #2F9BAA;
 }
 
 article {
