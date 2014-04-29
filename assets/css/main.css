@@ -186,9 +186,11 @@ h2 {
 	margin: 15px 0 25px;
 	line-height: 1;
 	border-bottom: 1px solid #ccc;
+	text-align: center;
+	color:#222;
 }
 
-h2:first-letter {
+h2 .icon-libraries {
 	color:#999;
 	padding-right:10px;
 }
@@ -276,14 +278,14 @@ p.instruction {
 	article {
 		border:0;
 	}
+	header {
+		margin-bottom:10px;
+	}
 	article ul {
 		padding-left:20px;
 	}
 	ul.dependencies {
 		padding-left:10px;
-	}
-	nav {
-		margin-bottom:20px;
 	}
 	h3 {
 		font-size:110%;
@@ -300,5 +302,34 @@ p.instruction {
 
 	nav ul li.library {
 		width:50%;
+	}
+}
+
+/** For 0px - 599px */
+@media all and (max-width : 360px) {
+	nav ul li.library {
+		width:100%;
+		float:none;
+		height:auto;
+		padding:10px 0;
+	}
+
+	nav ul ul {
+		position:static;
+		margin-top:10px;
+	}
+	header h1 {
+		text-align: center
+	}
+	header h1 img {
+		max-width:256px;
+		width:100%;
+	}
+	header h1 a.git
+	{
+		display:none;
+	}
+	h2 {
+		font-size:135%;
 	}
 }
