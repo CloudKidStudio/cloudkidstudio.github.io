@@ -1,4 +1,4 @@
-cloudkidstudio.github.io
-========================
+Github Team Page
+================
 
-Public site
+Public site for CloudKidStudio
