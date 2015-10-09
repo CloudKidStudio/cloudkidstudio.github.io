@@ -159,6 +159,9 @@ nav .src {
 nav .src {
 	padding-left:2px;
 }
+nav .src.wide {
+	width:100%;
+}
 
 nav a:active,
 nav a:hover {
